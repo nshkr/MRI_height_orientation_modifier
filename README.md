@@ -15,7 +15,7 @@ A Python code for correcting the orientation and increasing the height of brain 
 
 
 ![image](https://github.com/nshkr/MRI_height_orientation_modifier/assets/99551131/12c32c75-58c2-452f-9ad4-d156cc11d994)
-<p align="justify"> The same image after increasing the slice thickness to 5 mm and correcting the orientations (A: Anterior, P: Posterior, R: Right, L: Left, S: Superior, I: Inferior) </p>
+<p align="justify"> The same image after increasing the image height (by repeating each slice 5 times which corresponds to a layer thicness of 5 mm) and correcting the orientations (A: Anterior, P: Posterior, R: Right, L: Left, S: Superior, I: Inferior) </p>
 
 <p align="justify"> In the code, you can choose which MR contrasts to be modified (T1, T2, Flair). By choosing one or more contrasts, the image itself and the related lesion mask is modified accordingly. </p>
 
